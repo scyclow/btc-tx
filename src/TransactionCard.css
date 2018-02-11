@@ -1,0 +1,10 @@
+.TransactionCard {
+  width: 640px;
+  padding: 15px;
+  border: 1px solid;
+  border-bottom: 0;
+}
+
+.TransactionCard:last-child {
+  border-bottom: 1px solid;
+}
