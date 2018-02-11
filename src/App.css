@@ -13,5 +13,11 @@ body {
 
 .App h1 {
   font-size: 30px;
+}
+
+.mute {
+  text-decoration: underline;
+  cursor: pointer;
   margin-bottom: 30px;
+  margin-top: 10px;
 }

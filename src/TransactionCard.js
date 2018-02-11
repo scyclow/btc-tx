@@ -2,7 +2,7 @@
 
 import * as React from 'react';
 import './TransactionCard.css'
-import Client, { type Transaction} from './client'
+import { type Transaction} from './client'
 
 type Props = {
   transaction: Transaction
@@ -22,7 +22,7 @@ export default function TransactionCard({ transaction }: Props) {
       <div className="hash">{utx.hash}</div>
       <div>Inputs ({utx.inputs.length}): {inputValue}</div>
       <div>Outputs ({utx.out.length}): {outputValue}</div>
-      <div>Tx Fee: {inputValue - outputValue}</div>
+      <div>Tx Fee: {fee}</div>
     </div>
   )
 }
